@@ -1,0 +1,34 @@
+Temel Kavramlar 
+Thread (İş Parçacığı): Bir yazılımın işletim sistemi üzerinde çalışan en temel yürütme birimidir. Uygulama ayağa kalktığında bir Ana Thread (Main Thread) ile başlar; ihtiyaç halinde Worker Thread'ler oluşturulabilir.
+Senkron ve Asenkron Programlama 
+Senkron: Bir işlemin bitişinin diğerinin başlangıcına bağlı olduğu, sıralı ve bağımlı bir süreçtir (Örn: Ekmek kuyruğu).
+Asenkron: İşlemlerin birbirinden bağımsız olduğu, birinin bitmesini beklemeden diğerine geçilebilen süreçtir (Örn: E-postaleşme).
+Asenkron ve Multithread Farkı
+Asenkron Programlama: Amaç, kodun çalıştığı thread'i bloklamadan sistemin işleyişini sürdürmektir. Thread bazlı olmak zorunda değildir.
+Multithread Programlama: Birden fazla thread'in paralel olarak kullanıldığı, doğrudan thread yönetimine dayalı bir modeldir.
+.NET Yapıları ve Kullanım Senaryoları
+Task vs. Thread: .NET içerisinde Task sınıfı, async/await keywordleri ile yüksek seviyeli ve modern bir soyutlama sunarken; Thread sınıfı daha düşük seviyeli ve doğrudan donanım/işletim sistemi seviyesinde kontrol sağlar.
+Seçim Kriteri: IO operasyonları (dosya okuma/yazma, ağ çağrıları) için Asenkron, CPU yoğun paralel işlemler için Multithread yaklaşımı genellikle daha uygundur.
+C#'ın Doğası 
+C#, doğası gereği senkron bir dildir. Ancak async ve await keywordleri sayesinde geliştiricilere güçlü bir asenkron programlama altyapısı sunar.
+
+Asenkron ve multithread programlama, nihai olarak aynı hedefe (performanslı ve bloklanmayan bir uygulama) hizmet etseler de, teknik uygulama ve doğaları açısından birbirlerinden farklı yaklaşımlardır (31:37-32:04).
+
+Asenkron Programlama:
+
+Temel Odak: "Bekleme" süreçlerini yönetmek ve ana thread'i (main thread) bloklamadan sistemin çalışmasını sürdürmektir (
+İşleyiş: Bir işlemin başlaması için diğerinin bitmesini bekleme zorunluluğunu ortadan kaldırır. Bu, tek bir thread üzerinde veya birden fazla thread ile gerçekleştirilebilir 
+Kullanım Senaryosu: IO (Input/Output) operasyonları (dosya okuma/yazma, ağ çağrıları, veritabanı sorguları) gibi beklemeli işlemler için idealdir 
+Multithread Programlama:
+
+Temel Odak: Aynı uygulama içerisinde birden fazla iş parçacığını (thread) eş zamanlı ve paralel olarak çalıştırmaktır
+İşleyiş: Kod akışı doğrudan thread'ler üzerinden yürütülür; CPU üzerinde aynı anda birden fazla iş parçacığı işlenir 
+Kullanım Senaryosu: CPU yoğun işlemler (büyük veri hesaplamaları, karmaşık algoritmalar) için daha uygundur 
+Temel Karşılaştırma:
+
+Bellek Kullanımı: Asenkron programlama genellikle daha düşük bellek maliyetine sahiptir; multithread ise her thread için ayrı bir bellek alanına ihtiyaç duyduğundan daha maliyetli olabilir
+Debugging: Asenkron işlemlerde akış genellikle daha bağımsız olduğu için hata ayıklama (debugging) multithread'e göre nispeten daha kolaydır. Multithread'de ise "eş zamanlılık sorunları" (race conditions) nedeniyle hata ayıklama daha karmaşık olabilir 
+Restoran Metaforu:
+
+Asenkron: Tek bir şefin, bir yemeğin pişmesini beklerken başka bir siparişi hazırlamaya başlaması gibidir 
+Multithread: Mutfakta birden fazla şefin aynı anda farklı siparişleri hazırlaması gibidir 
