@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ders_1_Thread_Sinifi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+acd35126d6e5593c51b7b8e88206c29b9adcc188")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ders_1_Thread_Sinifi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ders_1_Thread_Sinifi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

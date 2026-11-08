@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.14.36518.9 d17.14
+# Visual Studio Version 18
+VisualStudioVersion = 18.11.12328.437 stable
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ders_1_Thread_Sinifi", "Ders_1_Thread_Sinifi\Ders_1_Thread_Sinifi.csproj", "{BA753AD0-EC81-4F5B-AFCA-AA68F4465421}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ders_2_Synchronization_ve_Blocking_Synchronization", "Ders_2_Synchronization_ve_Blocking_Synchronization\Ders_2_Synchronization_ve_Blocking_Synchronization.csproj", "{19FC52F9-EAEF-4E5B-B620-47090AF32DE7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{BA753AD0-EC81-4F5B-AFCA-AA68F4465421}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA753AD0-EC81-4F5B-AFCA-AA68F4465421}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA753AD0-EC81-4F5B-AFCA-AA68F4465421}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19FC52F9-EAEF-4E5B-B620-47090AF32DE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19FC52F9-EAEF-4E5B-B620-47090AF32DE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19FC52F9-EAEF-4E5B-B620-47090AF32DE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19FC52F9-EAEF-4E5B-B620-47090AF32DE7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

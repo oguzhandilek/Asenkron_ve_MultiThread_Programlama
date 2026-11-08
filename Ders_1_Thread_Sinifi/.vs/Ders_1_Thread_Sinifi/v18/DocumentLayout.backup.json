@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects\\VisualStudio\\Asenkron_ve_MultiThread_Programlama\\Ders_1_Thread_Sinifi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{19FC52F9-EAEF-4E5B-B620-47090AF32DE7}|Ders_2_Synchronization_ve_Blocking_Synchronization\\Ders_2_Synchronization_ve_Blocking_Synchronization.csproj|d:\\projects\\visualstudio\\asenkron_ve_multithread_programlama\\ders_1_thread_sinifi\\ders_2_synchronization_ve_blocking_synchronization\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19FC52F9-EAEF-4E5B-B620-47090AF32DE7}|Ders_2_Synchronization_ve_Blocking_Synchronization\\Ders_2_Synchronization_ve_Blocking_Synchronization.csproj|solutionrelative:ders_2_synchronization_ve_blocking_synchronization\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projects\\VisualStudio\\Asenkron_ve_MultiThread_Programlama\\Ders_1_Thread_Sinifi\\Ders_2_Synchronization_ve_Blocking_Synchronization\\Program.cs",
+              "RelativeDocumentMoniker": "Ders_2_Synchronization_ve_Blocking_Synchronization\\Program.cs",
+              "ToolTip": "D:\\Projects\\VisualStudio\\Asenkron_ve_MultiThread_Programlama\\Ders_1_Thread_Sinifi\\Ders_2_Synchronization_ve_Blocking_Synchronization\\Program.cs",
+              "RelativeToolTip": "Ders_2_Synchronization_ve_Blocking_Synchronization\\Program.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAAEIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-08T20:57:56.546Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
